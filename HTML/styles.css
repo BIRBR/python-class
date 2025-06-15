@@ -1,0 +1,26 @@
+    h1 {
+        color: gold
+        }
+    h2 {
+        color: green
+        }
+        h3, h4, h6 {
+            color: maroon   
+        }
+        body{
+            background-color: bisque;
+            font-family: 'Courier New', Courier, monospace;
+            background-image: url("images/daniel-akselrod-GRgfv49Nf-M-unsplash.jpg");
+            background-repeat:no-repeat ;
+            background-position: right top;
+            background-attachment: fixed;
+            background-size:cover;
+            /* background-size: cocoverver; appear full size*/
+            bac
+            }
+    #first-heading {
+        color:purple;
+    }
+    .blue-color {
+        color: blue;
+    }

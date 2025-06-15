@@ -1,0 +1,66 @@
+<!-- curl - i 127.0.0.1:5500 -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+
+ <!-- class, id => multiple elements cna have same class but not same id -->
+ <body>
+    <h1>HTML FORM</h1>
+    <!-- Create Form -->
+    <form action="#" method="get">
+        <!-- TEXT -->
+    <!-- <form action="#" method="post"></form>[not allowed] -->
+        <!-- action (where to send the form), method(get request or post request) -->
+        <label for="firstname">First Name</label> <br>
+        <!--  -->
+        <input id="firstname" type="text" name="firstname" placeholder="Enter Firs Name" ><br><br>
+        <!--  -->
+      
+        <label for="lastname">Last Name</label><br>
+        <!--  -->
+        <input type="text" id="lastname" name="lastname" placeholder="Enter Last Name" value="Sharma" readonly><br><br>
+        <!-- Radio button -->
+         <label for="gender">Gender</label> <br>
+         <input type="radio" name="gender" value="male" checked>Male <br>
+        <input type="radio" name="gender" value="female">Female <br>
+        <input type="radio" name="gender" value="other">other
+        <br><br>
+
+
+        <!-- drop down -->
+         <label for="">Course</label><br>
+         <select name="name" multiple> <br>
+            <option value="Python">Python</option><br>
+            <option value="cyber security">Cyber Security</option><br>
+            <option value="django">Django</option>
+         </select>
+         <label for="bio"></label>
+         <textarea name="bio" id="" cols="25" rowa="5">This is bio..</textarea>
+
+        <input type="submit" value="Submit">
+        <button type="submit">Submit</button>
+        <!--  -->
+        <label for="">Color</label>
+        <input type="color">
+        <br><br>
+        <label for="">Email</label>
+        <input type="email">
+        
+        <br><br>
+        <br><br>
+        <label for="">Password</label>
+        <input type="password">
+        
+        <br><br>
+        Quantity
+        <input type="number" min="0" max="10" step="0.5">
+        <br><br>
+
+    </form>
+    
+ </body>
+ </html>

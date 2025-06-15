@@ -1,0 +1,18 @@
+# Simple Bridge Load Calculation Program
+
+def calculate_bridge_load(span_length, num_lanes, traffic_density):
+    """Calculate total load on the bridge"""
+    load_per_lane = 1000  # Arbitrary unit load per lane
+    total_load = span_length * num_lanes * traffic_density * load_per_lane
+    return total_load
+
+# User input
+span_length = float(input("Enter bridge span length (meters): "))
+num_lanes = int(input("Enter number of lanes: "))
+traffic_density = float(input("Enter traffic density factor (e.g., 1.2 for heavy traffic): "))
+
+# Compute load
+total_load = calculate_bridge_load(span_length, num_lanes, traffic_density)
+
+# Display result
+print(f"Estimated total bridge load: {total_load} units")

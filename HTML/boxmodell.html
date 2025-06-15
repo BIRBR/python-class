@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            height: 400px;
+            width: 300px;
+            border: black 10px solid;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        #box1 {
+            text-align: center;
+            /* color: red; */
+        }
+
+        #box1 {
+            text-align: center;
+            background-color: bisque;
+            color: red;
+        }
+            #box1>p {
+                color: green;
+            }
+
+            .container {
+                background-color: aliceblue;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                min-height: 100vh;
+                
+            }
+        .container1 {
+            display: grid;
+            /* grid-auto-columns:auto; */
+            grid-template-columns: 25% 50% 25%;
+            column-gap: 10px;
+
+            grid-template-rows: 100px 100px;
+    
+            }
+        .container1 > div {
+            margin: 10px;
+            padding: 10px;
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>box model</h1>
+    <div class="container">
+        <div class="box" id="box1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, necessitatibus?</p>
+        </div>
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="box">
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, beatae culpa ullam recusandae
+                architecto quidem</p>
+        </div>
+        <div class="box">
+        </div>
+    </div>
+    <div class="container1">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+</body>
+
+</html>
+<!-- tomorrow class Boot strap : getbootstrap.com -->
+
