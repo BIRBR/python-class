@@ -1,0 +1,8 @@
+Create a simple User Management System where users can:
+
+> Register by providing a name, email, address and password.
+> Login using email and password.
+> once logged in, they can see Profile(user details).
+
+All user data should be in the following format:
+name, email, address, password
