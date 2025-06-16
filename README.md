@@ -5,5 +5,8 @@
 3. DJANGO
 4. GIT & GITHUB
 5. NUMPY
+6. Visual Basic
+7. C++
+
 
 
