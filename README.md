@@ -3,5 +3,7 @@
 1. PYTHON
 2. HTML ans CSS
 3. DJANGO
+4. GIT & GITHUB
+5. NUMPY
 
 
